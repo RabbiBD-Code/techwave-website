@@ -103,11 +103,12 @@ img {
 }
 @keyframes vibration {
     0% { transform: rotate(0deg);}
-    25% { transform: rotate(4deg);}
+    25% { transform: rotate(10deg);}
     50% { transform: rotate(0deg);}
-    75% { transform: rotate(4deg);}
+    75% { transform: rotate(10deg);}
     100% { transform: rotate(0deg);}
 }
+
 .banner-bg-3 {
     z-index: 3;
     top: 40%;
@@ -346,6 +347,7 @@ img {
     margin-bottom: 100px;
 }
 
+
 #host-meet{
     padding: 40px;
     border-radius: 40px;
@@ -425,6 +427,10 @@ img {
     #host-meet{
         flex-direction: column;
     }
+    #host-meet >img{
+    width: 70%;
+    margin: 0 auto;
+}
     #footer-logo{
         grid-template-columns: repeat(2, 1fr);
     }
